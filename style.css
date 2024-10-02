@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #084c80;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+
+.introduction, .appartements, .connexion {
+    padding: 20px;
+}
+.introduction{
+    text-align: center;
+}
+.liste-appartements {
+    display: flex;
+    gap: 20px;
+}
+
+.appartement {
+    border: 2px solid #585454;
+    padding: 10px;
+    border-radius: 1%;
+    text-align: center;
+}
+
+.appartement img {
+    width: 100%;
+    height: auto;
+}
+h2{
+    text-align: center;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#loginForm label, #loginForm input, #loginForm button {
+    margin-bottom: 10px;
+    padding: 1vh;
+}
+
+#message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+footer{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 66px;
+        margin-top: 66px;
+        background-color: #084c80;
+        color: white;
+      
+}
+.text{
+    display: flex;
+
+}
+.text img{
+    height: 5vh;
+    width: 3vw;
+}
+
